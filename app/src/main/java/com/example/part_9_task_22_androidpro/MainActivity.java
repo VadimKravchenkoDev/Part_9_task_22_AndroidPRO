@@ -20,5 +20,12 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Cars cars = new Cars(4,4,"Aston Martin");
+        cars.remedial();
+        cars.remedial(4,4);
+        cars.remedial("BMW");
+
+
     }
 }
