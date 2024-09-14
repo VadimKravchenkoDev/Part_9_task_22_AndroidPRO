@@ -18,9 +18,9 @@ public class Cars  {
         Log.d("mylog","Cars remedials");
     }
     public void remedial(int doors,int wheels){
-        Log.d("mylog","Remedials doors and wheels");
+        Log.d("mylog","Remedials doors " +doors+ " and " + " wheels " + wheels);
     }
     public void remedial(String model){
-        Log.d("mylog","Use model");
+        Log.d("mylog","Use model " + model);
     }
 }
